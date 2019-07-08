@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+*{
+  margin: 0px;
+  
+}
+
+footer{
+ text-align: right;
+}
+
+body {
+text-align: center;
+background: url(Background1.jpg);
+box-sizing: border-box;
+}
+ul {
+    display: inline-block; text-align: center;
+}
+a{
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    padding: 0px 30px;
+    font-family:"Open Sans", sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+  }
+  header nav a{
+    font-size: 24px;
+    padding: 5px 10px 20px;
+    color: whitesmoke;
+  }
+  .player{
+      color: whitesmoke;
+      display: none;
+  }
+  .pic{
+      float: right;
+      padding-right: 400px;
+      width: 15%;
+  }
+  .Stats{
+padding-left: 400px;
+font-family:"Open Sans", sans-serif;
+text-decoration: underline;
+  }
+ .Stats1{
+    padding-left: 400px;
+    font-family:"Open Sans", sans-serif;
+    font-size: 20px;
+ }
+
+ .Strengths{
+     color: green;
+     font-weight: bolder;
+     font-family:"Open Sans", sans-serif;
+    font-size: 25px;
+    padding-left: 310px;
+ }
+
+ .Weakness{
+  color:red;
+  font-weight: bolder;
+  font-family:"Open Sans", sans-serif;
+  padding-left: 35px;
+  font-size: 25px;
+  padding
+}
+.Strengths1
+{
+  font-family:"Open Sans", sans-serif;
+  color:whitesmoke;
+  padding-left: 320px;
+  font-size: 10px;
+}
+
+.Wrapper{
+  display: flex;
+  justify-content: center;
+  padding-left: 200px;
+  padding-top: 25px;
+}
+
+.Wrapperitem{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.Weak{
+    font-family:"Open Sans", sans-serif;
+    color: whitesmoke;
+    font-size: 10px;
+    padding-left: 50px;
+}
+
+.open{
+    padding-top: 25px;
+}
+.open a{
+    color:whitesmoke;
+    font-family:"Open Sans", sans-serif;
+    font-weight: bold;
+}
+
+.NBAplayer{
+  font-family:"Open Sans", sans-serif;
+  text-decoration: underline;
+}
+
+.Comparison{
+  font-family:"Open Sans", sans-serif;
+}
+
+
+.Highlight{
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+footer h3{
+  font-family:"Open Sans", sans-serif;
+  color: white;
+  font-size: 20px;
+  padding-right: 15px;
+}
+
+@media (min-width: 500px){
+
+  *{
+    margin: 0px;
+    
+  }
+
+footer h3{
+  padding-top: 50px;
+}
+
+header nav a{
+  font-size: 15px;
+  text-align: center
+}
+
+body{
+  text-align: center
+}
+
+.NBAplayer{
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.pic{
+padding-right: 200px;
+}
+
+.Stats{
+  font-size: 10px;
+  padding-left: 100px;
+}
+
+.Stats1{
+  font-size: 10px;
+  padding-left: 100px;
+}
+
+.Comparison{
+  font-size: 15px;
+  font-weight: bolder; 
+}
+
+.Highlight{
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.Strengths{
+  font-size: 15px;
+  padding: 0px;
+}
+
+.Weakness{
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+.Wrapper{
+  display: flex;
+  justify-content: center;
+  padding-left: 200px;
+  padding-top: 25px;
+}
+
+.Strengths1{
+  padding-left: 0px;
+  font-size: 8px;
+}
+
+.Weak{
+  font-size: 8px;
+}
+}
+
+@media (min-width: 768px){
+
+  *{
+    margin: 0px;
+    
+  }
+
+footer h3{
+  padding-top: 50px;
+}
+
+header nav a{
+  font-size: 15px;
+  text-align: center
+}
+
+body{
+  text-align: center
+}
+
+.NBAplayer{
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.pic{
+padding-right: 250px;
+}
+
+.Stats{
+  font-size: 15px;
+  padding-left: 190px;
+}
+
+.Stats1{
+  font-size: 15px;
+  padding-left: 190px;
+}
+
+.Comparison{
+  font-size: 15px;
+  font-weight: bolder; 
+}
+
+.Highlight{
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.Strengths{
+  font-size: 15px;
+  padding: 0px;
+}
+
+.Weakness{
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+.Wrapper{
+  display: flex;
+  justify-content: center;
+  padding-left: 200px;
+  padding-top: 25px;
+}
+
+.Strengths1{
+  padding-left: 0px;
+  font-size: 10px;
+}
+.Weak{
+  font-size: 10px;
+}
+}
+
+@media (min-width: 900px){
+  *{
+    margin: 0px;
+    
+  }
+
+footer h3{
+  padding-top: 50px;
+}
+
+header nav a{
+  font-size: 25px;
+  text-align: center
+}
+
+body{
+  text-align: center
+}
+
+.NBAplayer{
+  font-weight: bolder;
+}
+
+.pic{
+padding-right: 300px;
+}
+
+.Stats{
+  font-size: 15px;
+  padding-left: 190px;
+}
+
+.Stats1{
+  padding-left: 190px;
+  font-size: 20px;
+}
+
+.Comparison{
+  font-weight: bolder; 
+}
+
+.Highlight{
+  font-weight: bolder;
+}
+
+.Strengths{
+  padding: 0px;
+}
+
+.Weakness{
+  padding-left: 20px;
+}
+
+.Wrapper{
+  display: flex;
+  justify-content: center;
+  padding-left: 200px;
+  padding-top: 25px;
+}
+
+.Strengths1{
+  padding-left: 0px;
+  font-size: 15px;
+}
+.Weak{
+  font-size: 15px;
+}
+}
+
+
+@media (min-width: 1100px){
+  *{
+    margin: 0px;
+    
+  }
+
+footer h3{
+  padding-top: 50px;
+}
+
+header nav a{
+  font-size: 25px;
+  text-align: center
+}
+
+body{
+  text-align: center
+}
+
+.NBAplayer{
+  font-weight: bolder;
+}
+
+.pic{
+padding-right: 400px;
+width: 13%;
+}
+
+.Stats{
+  font-size: 15px;
+  padding-left: 300px;
+}
+
+.Stats1{
+  padding-left: 300px;
+  font-size: 20px;
+}
+
+.Comparison{
+  font-weight: bolder; 
+}
+
+.Highlight{
+  font-weight: bolder;
+}
+
+.Strengths{
+  padding-left: 180px;
+}
+
+.Weakness{
+  padding-left: 70px;
+}
+
+.Wrapper{
+  display: flex;
+  justify-content: center;
+  padding-left: 200px;
+  padding-top: 25px;
+}
+
+.Strengths1{
+  padding-left: 200px;
+}}
