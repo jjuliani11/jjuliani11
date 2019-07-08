@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+#wrapper {
+    max-width: 1000px;
+    margin: 0auto;
+    outline: 1px soild blue;
+}
+
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+}
+
+header,footer{
+    height: 200px;
+    width: 100%;
+    background-color: grey;
+    border: 1px solid lightgray;
+}
+
+main{
+    height: 350px;
+    width: 64%;
+    background-color: lightgray;
+    border: 1px solid grey;
+}
+
+aside{
+    height: 350px;
+    width: 33%;
+    background-color: lightgrey;
+    border: 1px solid grey; 
+}

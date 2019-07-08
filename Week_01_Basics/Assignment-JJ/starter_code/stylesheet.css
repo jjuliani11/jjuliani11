@@ -1,0 +1,48 @@
+/*style.css file */
+    body{
+      background-color: lightgray;
+    }
+    header{
+      color:blue;
+    font-weight: bold;
+    text-align: center;
+  }
+
+     h1{
+       text-align: center;
+        font-size:60px;
+        text-transform: capitalize;
+        font-weight: bold;
+      }
+
+        h2{
+          font-weight: bold;
+        text-align: left;
+      }
+
+        p{
+          text-align: left;
+        }
+
+        h3{
+          text-align: left;
+          text-transform: capitalize;
+        }
+             ul{
+               text-align: left;
+            font-weight: bold;
+          }
+
+           h4{
+             text-align: left;
+            } 
+
+           img{
+             border: 5px;
+            border-radius: 4px;
+            padding: 5px;
+            width: 400px;
+          }
+        
+        
+            

@@ -1,0 +1,18 @@
+h1{
+    background-color: red;
+    padding: 10px 20px 5px 30px;
+    border-bottom: 3px solid purple;
+}
+
+p{
+    background: lightblue;
+    color: white;
+    padding: 5px dotted black;
+}
+
+code{
+    background: white;
+    color: darkgrey;
+    padding: 5px 10px;
+    border: 1px solid black;
+}

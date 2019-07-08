@@ -1,0 +1,17 @@
+#notification {
+    background-color: blue;
+    border: 1px solid grey;
+    color: brown;
+    padding 10px;
+}
+
+.message {
+    background-color: lightblue;
+    
+}
+
+.success {
+    background: green;
+    border: 2px solid green;
+    color: azure;
+}
