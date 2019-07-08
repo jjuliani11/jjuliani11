@@ -1,0 +1,38 @@
+{
+	"student1": {
+		  "firstName": "Amanda",
+		  "lastName": "Doe",
+		  "attendance": true,
+		  "email": "test@test.com"
+	  },
+	  "student2": {
+		  "firstName": "Joe",
+		  "lastName": "Doe",
+		  "attendance": false,
+		  "email": "joe@test.com"
+	  },
+	  "student3": {
+		  "firstName": "Sally",
+		  "lastName": "Doe",
+		  "attendance": true,
+		  "email": "sally@test.com"
+	  },
+	  "student4": {
+		  "firstName": "Moe",
+		  "lastName": "Doe",
+		  "attendance": true,
+		  "email": "moe@test.com"
+	  },
+	  "student5": {
+		  "firstName": "Billy",
+		  "lastName": "Doe",
+		  "attendance": false,
+		  "email": "billy@test.com"
+	  },
+	  "student6": {
+		  "firstName": "Tom",
+		  "lastName": "Doe",
+		  "attendance": true,
+		  "email": "tom@test.com"
+	  }
+  }
