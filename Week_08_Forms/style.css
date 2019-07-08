@@ -1,0 +1,17 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  fieldset {
+    margin-bottom: 30px;
+  }
+  
+  fieldset legend {
+    font-size: .85em;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  input, select, textarea {
+    margin-bottom: 10px;
+  }
